@@ -1,0 +1,39 @@
+{
+    "intents": [{
+        "intent": "YesIntent"
+     },
+     {
+        "intent": "HowManyChromecastsIntent"
+     },
+     {
+        "intent": "ForwardIntent",
+        "slots": [{
+            "name": "elapsed_time",
+            "type": "AMAZON.NUMBER"
+                } ]
+    },
+    {
+        "intent": "BackwardIntent",
+        "slots" : [ { 
+          		"name": "elapsed_time", 
+          		"type":  "AMAZON.NUMBER"} ]
+    },
+    {
+        "intent": "TurnRightIntent",
+        "slots" : [ { "name": "elapsed_time", "type": "AMAZON.NUMBER"}]
+    },
+    {
+        "intent": "TurnLeftIntent",
+        "slots" : [ { "name": "elapsed_time", "type": "AMAZON.NUMBER"}]
+    },
+    {
+        "intent": "FunIntent",
+        "slots" : [ { "name": "greetings", "type": "AMAZON.LITERAL"} ]
+    } , { 
+    
+    	"intent": "StopIntent"
+    }
+    
+    ]
+}
+

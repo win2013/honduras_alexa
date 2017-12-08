@@ -1,0 +1,9 @@
+welcome: I am m-Bot, your robot at your command . Are you ready to command me?
+
+round: I can understand instructions {{ instructions|join(", ") }} 
+
+win: Good job! You have fantastic memory, baby. Next question?
+
+lose: Sorry, that's the wrong answer. Next Question?
+
+numberofcasts:  The number of chromecasts foound is {{n_casts}}, and the name are, {{ names|join(",") }}  ,  Which one do you want me to use?

@@ -1,0 +1,36 @@
+welcome: Welcome to memory game. I'm going to say three numbers for you to repeat backwards. Ready?
+
+round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
+
+win: Good job! You have fantastic memory, baby. Next question?
+
+lose: Sorry, that's the wrong answer. Next Question?
+
+numberofcasts:  The number of chromecasts foound, is {{n_casts}}.  The names are, {{ names|join(",") }}  ,  Which one do you want me to use?
+
+robot:  I am mBOT at your service, are you ready to issue commands to me?
+
+instructions:  You can request me to do several moves, Forward, Backward, Right, or Left, What do you want me to do next?
+
+forward_move:  I just moved forward for {{elapsed_time}} seconds, I avoided {{n_collisions}} collissions, What do you want me to do next?
+
+backward_move:  i just moved forward for {{elapsed_time}} seconds, I avoided {{n_collisions}} collissions, What do you want me to do next?
+
+turn_right: I moved to the right for {{elapsed_time}} seconds. What do you want me to do next?
+
+turn_left:  I moved to the left for {{elapsed_time}} seconds. What do you want me to do next?
+
+completed:  Happy Birthday to you? What else do you want me to do?
+
+thankyou:  Thank you for your commands, I am happy to serve you!
+
+stop:   I stopped, thanks, I was tired. What do want me to do next?
+
+fun_msg: |
+  <speak>
+      Thanks for coming to "Honduras Global"
+      I know you guys are from Honduras, and love soccer, meaning football,
+      Do you remember this goal?
+      <audio src="https://s3-us-west-2.amazonaws.com/eglaimport/storage/audio6.mp3"/>
+      Thanks for using my services.
+  </speak>
